@@ -31,6 +31,10 @@ public class Soal3 {
 					case "-":
 						System.out.print(A-B);
 						break;
+					case "*":
+						System.out.print(A*B);
+						break;
+					default: System.out.println("Operator tidak dikenali");
 				}
 				break;
 			}

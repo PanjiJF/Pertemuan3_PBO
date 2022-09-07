@@ -11,12 +11,11 @@ public class Soal5 {
 		
 		long sum = Long.parseLong(plat);
 		sum -= 999999;
-		System.out.println(sum);
 		
 		if(sum % 5 == 0) {
-			System.out.println("berhenti");
-		} else {
 			System.out.println("jalan");
+		} else {
+			System.out.println("berhenti");
 		}
 	}
 }
